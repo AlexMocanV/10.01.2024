@@ -1,0 +1,21 @@
+#include <iostream>
+
+using namespace std;
+
+int main()
+{
+    char n;
+    int c;
+    cin>>n;
+    c=(int)n;
+    if(c+32<126)
+    {
+        c+=32;
+    }
+    else
+    {
+        c-=32;
+    }
+    cout<< char(c);
+    return 0;
+}
